@@ -11,3 +11,9 @@ I want to be a web developer, I’m interesting front-end now.
 ### Experience:
 I have some experience in HTML, CSS, JS.
 I have done some simple tasks in Java, SQL.
+
+### Education:
+2010-2014 BSATU 2014-2015 BSEU
+
+### English:
+English A1-A2 (Elementary)
