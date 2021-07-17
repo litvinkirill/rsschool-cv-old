@@ -17,3 +17,10 @@ I have done some simple tasks in Java, SQL.
 
 ### English:
 English A1-A2 (Elementary)
+
+### Links:
+codewars: https://www.codewars.com/users/kirillLit
+
+https://rolling-scopes-school.github.io/litvinkirill-JSFE2021Q1/wildlife/
+
+https://rolling-scopes-school.github.io/litvinkirill-JS2020Q3/calculator/
