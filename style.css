@@ -75,6 +75,11 @@ p {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .info {
     display: flex;
     text-align: center;
@@ -82,19 +87,15 @@ p {
     margin-top: 10px;
 }
 
-.column1 {
+.column1, .column2 {
     width: 500px;
     margin: 0 10px 0 10px;
 }
 
-.column2 {
-    margin: 0 10px 0 10px;
-}
-
-
 footer {
-    text-align: center;
+    margin: 0 auto;
     color: ivory;
+    width: 100px;
 }
 
 .cors {
@@ -107,5 +108,17 @@ footer {
 }
 
 .languages {
-    margin-top: 30px;
+}
+
+.telegram {
+    display: flex;
+    justify-content: center;
+}
+
+.telegram_logo {
+    width: 30px;
+}
+
+.tel_name {
+    margin-left: 10px;
 }
