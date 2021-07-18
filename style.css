@@ -92,22 +92,8 @@ a {
     margin: 0 10px 0 10px;
 }
 
-footer {
-    margin: 0 auto;
-    color: ivory;
-    width: 100px;
-}
-
-.cors {
-    text-decoration: none;
-    color: ivory;
-}
-
 .contacts {
     margin-top: 30px;
-}
-
-.languages {
 }
 
 .telegram {
@@ -121,4 +107,28 @@ footer {
 
 .tel_name {
     margin-left: 10px;
+}
+
+footer {
+    margin: 0 auto;
+    color: ivory;
+    width: 240px;
+}
+
+.git {
+    width: 30px;
+}
+
+.RSSchool {
+    width: 70px;
+}
+
+.footer_ul {
+    display: flex;
+}
+
+.footer_li {
+    display: inline;
+    margin: 0;
+    padding: 0 20px;
 }
