@@ -341,12 +341,20 @@ a:hover {
         width: 134%;
     }
     .wild__image {
-        width: 134%;
+        width: 77%;
     }
     .wild__info, .calc__info, .video__info {
-        width: 140%;
+        width: 100%;
     }
-
+    .calc {
+        height: 657px;
+    }
+    .wild {
+        height: 300px;
+    }
+    .vid {
+        height: 350px;
+    }
 
 
 
