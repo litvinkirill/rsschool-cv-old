@@ -8,7 +8,7 @@
     <title>Personal Information on Kirill Litvin</title>
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css"></link>
+    <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/styles/style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
@@ -19,15 +19,14 @@
     <header class="header cv-section">
         <div class="left">
             <div class="img-profile">
-                <img class="img-thumbnail" alt="Kirill" src="./assets/images/profile-image.jpg">
+                <img class="img-thumbnail" alt="Kirill" src="./assets/images/photo.jpg">
             </div>
             <div class="caption">
                 <h1>Kirill Litvin</h1>
-                <h2>Front End Developer</h2>
             </div>
         </div>
         <div class="right">
-
+            <span class="burger">&#9776;</span>
             <nav class="contact-info">
                 <ul>
                     <li><a href="#summary">Summary</a></li>
@@ -36,10 +35,31 @@
                     <li><a href="#education">Education</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#languages">Languages</a></li>
-
-
                 </ul>
             </nav>
+            <div class="slide-in">
+                <nav class="nav">
+                    <div class="open"><img src="./assets/images/close hamburger.svg" alt="close"></div>
+                  <ul class="nav__list">
+                    <li class="nav__list-items">
+                        <a href="#summary">Summary</a>
+                    </li>
+                    <li class="nav__list-items">
+                        <a href="#technical">Technical skills</a>
+                    </li>
+                    <li class="nav__list-items">
+                        <a href="#personal">Personal information</a>
+                    </li>
+                    <li class="nav__list-items">
+                        <a href="#education">Education</a>
+                    </li>
+                    <li class="nav__list-items">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="nav__list-items"><a href="#languages">Languages</a></li>
+                  </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -177,22 +197,28 @@
                         <li class="wild">
                             <a href="http://rolling-scopes-school.github.io/litvinkirill-JSFE2021Q1/wildlife/">
                                 <img src="./assets/images/wildlife.jpg" alt="wild" class="wild__image">
-                                <h4>Wildlife</h4>
-                                <p>A landing page about life wild animals. Made with HTML5 and CSS3.</p>
+                                <div class="wild__info">
+                                    <h4>Wildlife</h4>
+                                    <p>A landing page about life wild animals. Made with HTML5 and CSS3.</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="calc">
                             <a href="http://rolling-scopes-school.github.io/litvinkirill-JS2020Q3/calculator/">
                                 <img src="./assets/images/calculator.jpg" alt="calculator" class="wild__image">
-                                <h4>Calculator</h4>
-                                <p>A calculator is a calculator. Performs normal mathematical functions. Made with HTML5 and JS (ES6).</p>
+                                <div class="calc__info">
+                                    <h4>Calculator</h4>
+                                    <p>A calculator is a calculator. Performs normal mathematical functions. Made with HTML5 and JS (ES6).</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="vid">
                             <a href="https://rolling-scopes-school.github.io/litvinkirill-JSFEPRESCHOOL/custom-video-player/">
                                 <img src="./assets/images/video-player.jpg" alt="video-player" class="wild__image">
-                                <h4>Video player</h4>
-                                <p>A customised HTML5 video player with controls custom design and following functionality: managing volume, playback rate, fullscreen mode, rewind back/forward width buttons and keyboard.</p>
+                                <div class="video__info">
+                                    <h4>Video player</h4>
+                                    <p>A customised HTML5 video player with controls custom design and following functionality: managing volume, playback rate, fullscreen mode, rewind back/forward width buttons and keyboard.</p>
+                                </div>
                             </a>
                         </li>
                         <li class="codeS">
@@ -228,6 +254,7 @@
             https://rs.school/js/</a>
         <p>© 2021 Minsk, Belarus</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
